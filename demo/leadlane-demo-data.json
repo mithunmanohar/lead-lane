@@ -1,0 +1,858 @@
+{
+  "version": 3,
+  "updatedAt": "2026-10-23T17:20:14Z",
+  "sections": [
+    {
+      "id": "demo0001",
+      "name": "Platform Reliability",
+      "createdAt": "2026-01-16T10:40:14Z"
+    },
+    {
+      "id": "demo0002",
+      "name": "Hiring & People",
+      "createdAt": "2026-02-05T10:07:14Z"
+    },
+    {
+      "id": "demo0003",
+      "name": "Tech Debt",
+      "createdAt": "2026-04-06T10:01:14Z"
+    },
+    {
+      "id": "demo0004",
+      "name": "Q4 Roadmap",
+      "createdAt": "2026-07-25T10:47:14Z"
+    },
+    {
+      "id": "demo0005",
+      "name": "My Code",
+      "createdAt": "2026-05-26T10:17:14Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "demo0006",
+      "sectionId": "demo0001",
+      "text": "Review top incidents and follow-up actions",
+      "status": "todo",
+      "priority": "p1",
+      "deadline": "2026-10-23",
+      "notes": "Check every postmortem has an owner",
+      "archived": false,
+      "createdAt": "2026-10-17T10:47:14Z",
+      "updatedAt": "2026-10-18T11:08:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-10-18T11:08:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0007",
+      "sectionId": "demo0001",
+      "text": "Define SLOs for checkout API",
+      "status": "progress",
+      "priority": "p1",
+      "deadline": "2026-10-21",
+      "notes": "Latency p95 < 300ms, availability 99.9%",
+      "archived": false,
+      "createdAt": "2026-10-02T10:27:14Z",
+      "updatedAt": "2026-10-08T09:37:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-10-03T18:47:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-10-08T09:37:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0008",
+      "sectionId": "demo0001",
+      "text": "Add alerting on queue lag",
+      "status": "backlog",
+      "priority": "p2",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-10-11T10:02:14Z",
+      "updatedAt": "2026-10-11T10:01:14Z",
+      "statusHistory": []
+    },
+    {
+      "id": "demo0009",
+      "sectionId": "demo0001",
+      "text": "Migrate cron jobs to workflow engine with retries and observability",
+      "status": "todo",
+      "priority": "p2",
+      "deadline": "2026-11-01",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-09-13T10:32:14Z",
+      "updatedAt": "2026-09-16T11:14:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-09-16T11:14:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0010",
+      "sectionId": "demo0001",
+      "text": "Chaos test the payment service",
+      "status": "backlog",
+      "priority": "p3",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-08-29T10:38:14Z",
+      "updatedAt": "2026-08-29T10:01:14Z",
+      "statusHistory": []
+    },
+    {
+      "id": "demo0011",
+      "sectionId": "demo0001",
+      "text": "On-call rollout dashboard",
+      "status": "tracking",
+      "priority": "p2",
+      "deadline": "2026-10-26",
+      "notes": "Waiting on SRE review",
+      "archived": false,
+      "createdAt": "2026-09-23T10:17:14Z",
+      "updatedAt": "2026-10-06T15:37:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-09-28T11:45:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-10-04T16:26:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-10-06T15:37:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0012",
+      "sectionId": "demo0001",
+      "text": "Reduce pager noise: tune 12 flappy alerts",
+      "status": "progress",
+      "priority": "p2",
+      "deadline": "2026-10-29",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-10-05T10:09:14Z",
+      "updatedAt": "2026-10-10T13:17:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-10-06T10:44:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-10-10T13:17:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0013",
+      "sectionId": "demo0001",
+      "text": "Upgrade Postgres to v16",
+      "status": "done",
+      "priority": "p2",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-08-09T10:29:14Z",
+      "updatedAt": "2026-08-26T08:46:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-08-13T13:06:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-08-15T14:06:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-08-21T13:38:14Z"
+        },
+        {
+          "status": "done",
+          "at": "2026-08-26T08:46:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0014",
+      "sectionId": "demo0001",
+      "text": "Rotate TLS certificates",
+      "status": "done",
+      "priority": "p1",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-09-20T10:45:14Z",
+      "updatedAt": "2026-10-05T17:12:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-09-25T09:59:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-09-29T09:35:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-10-02T18:39:14Z"
+        },
+        {
+          "status": "done",
+          "at": "2026-10-05T17:12:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0015",
+      "sectionId": "demo0001",
+      "text": "Write runbook for cache stampede",
+      "status": "done",
+      "priority": "p3",
+      "deadline": "",
+      "notes": "",
+      "archived": true,
+      "createdAt": "2026-06-25T10:53:14Z",
+      "updatedAt": "2026-07-23T15:40:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-06-28T08:42:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-07-06T12:05:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-07-14T09:24:14Z"
+        },
+        {
+          "status": "done",
+          "at": "2026-07-23T15:40:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0016",
+      "sectionId": "demo0002",
+      "text": "Prepare interview loop for senior backend role",
+      "status": "progress",
+      "priority": "p1",
+      "deadline": "2026-10-24",
+      "notes": "Panel: Sam, Alex + one cross-team",
+      "archived": false,
+      "createdAt": "2026-10-09T10:17:14Z",
+      "updatedAt": "2026-10-15T11:42:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-10-12T10:23:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-10-15T11:42:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0017",
+      "sectionId": "demo0002",
+      "text": "Write growth plan for Priya",
+      "status": "todo",
+      "priority": "p1",
+      "deadline": "2026-10-27",
+      "notes": "Tie to tech lead expectations doc",
+      "archived": false,
+      "createdAt": "2026-10-13T10:10:14Z",
+      "updatedAt": "2026-10-14T17:40:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-10-14T17:40:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0018",
+      "sectionId": "demo0002",
+      "text": "Calibrate ratings with peer EMs",
+      "status": "backlog",
+      "priority": "p1",
+      "deadline": "2026-11-06",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-10-15T10:34:14Z",
+      "updatedAt": "2026-10-15T10:46:14Z",
+      "statusHistory": []
+    },
+    {
+      "id": "demo0019",
+      "sectionId": "demo0002",
+      "text": "Refresh onboarding doc",
+      "status": "tracking",
+      "priority": "p3",
+      "deadline": "",
+      "notes": "Jordan drafting",
+      "archived": false,
+      "createdAt": "2026-09-28T10:43:14Z",
+      "updatedAt": "2026-10-10T16:14:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-09-30T10:29:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-10-04T12:59:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-10-10T16:14:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0020",
+      "sectionId": "demo0002",
+      "text": "Run skip-levels with Payments team",
+      "status": "todo",
+      "priority": "p2",
+      "deadline": "2026-11-02",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-10-07T10:52:14Z",
+      "updatedAt": "2026-10-13T08:14:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-10-13T08:14:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0021",
+      "sectionId": "demo0002",
+      "text": "Close offer for frontend engineer",
+      "status": "done",
+      "priority": "p1",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-09-08T10:58:14Z",
+      "updatedAt": "2026-09-28T14:56:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-09-09T13:25:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-09-14T09:13:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-09-20T11:41:14Z"
+        },
+        {
+          "status": "done",
+          "at": "2026-09-28T14:56:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0022",
+      "sectionId": "demo0002",
+      "text": "Collect 360 feedback for Alex",
+      "status": "done",
+      "priority": "p2",
+      "deadline": "",
+      "notes": "",
+      "archived": true,
+      "createdAt": "2026-08-24T10:57:14Z",
+      "updatedAt": "2026-09-26T17:27:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-09-04T15:09:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-09-09T10:15:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-09-21T16:34:14Z"
+        },
+        {
+          "status": "done",
+          "at": "2026-09-26T17:27:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0023",
+      "sectionId": "demo0003",
+      "text": "Remove legacy feature flags",
+      "status": "todo",
+      "priority": "p3",
+      "deadline": "",
+      "notes": "38 flags older than 6 months",
+      "archived": false,
+      "createdAt": "2026-08-19T10:08:14Z",
+      "updatedAt": "2026-09-14T13:14:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-09-14T13:14:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0024",
+      "sectionId": "demo0003",
+      "text": "Split monolith auth module",
+      "status": "backlog",
+      "priority": "p2",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-07-25T10:32:14Z",
+      "updatedAt": "2026-07-25T10:31:14Z",
+      "statusHistory": []
+    },
+    {
+      "id": "demo0025",
+      "sectionId": "demo0003",
+      "text": "Delete unused S3 buckets",
+      "status": "done",
+      "priority": "p3",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-07-15T10:24:14Z",
+      "updatedAt": "2026-08-17T09:24:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-07-18T08:55:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-07-22T10:40:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-07-28T18:27:14Z"
+        },
+        {
+          "status": "done",
+          "at": "2026-08-17T09:24:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0026",
+      "sectionId": "demo0003",
+      "text": "Upgrade Node 18 → 22 across services",
+      "status": "progress",
+      "priority": "p2",
+      "deadline": "2026-11-12",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-09-18T10:00:14Z",
+      "updatedAt": "2026-10-03T16:55:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-09-28T15:33:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-10-03T16:55:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0027",
+      "sectionId": "demo0004",
+      "text": "Draft Q4 OKRs with product",
+      "status": "done",
+      "priority": "p1",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-09-03T10:00:14Z",
+      "updatedAt": "2026-09-27T10:29:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-09-05T18:56:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-09-14T12:49:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-09-20T09:18:14Z"
+        },
+        {
+          "status": "done",
+          "at": "2026-09-27T10:29:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0028",
+      "sectionId": "demo0004",
+      "text": "Capacity plan for Q1",
+      "status": "todo",
+      "priority": "p1",
+      "deadline": "2026-10-30",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-10-14T10:11:14Z",
+      "updatedAt": "2026-10-17T16:48:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-10-17T16:48:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0029",
+      "sectionId": "demo0004",
+      "text": "Kick off multi-region read replicas",
+      "status": "backlog",
+      "priority": "p2",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-10-03T10:32:14Z",
+      "updatedAt": "2026-10-03T10:58:14Z",
+      "statusHistory": []
+    },
+    {
+      "id": "demo0030",
+      "sectionId": "demo0004",
+      "text": "Stakeholder update deck",
+      "status": "tracking",
+      "priority": "p2",
+      "deadline": "2026-10-25",
+      "notes": "Sent to VP, waiting on comments",
+      "archived": false,
+      "createdAt": "2026-10-18T10:59:14Z",
+      "updatedAt": "2026-10-21T16:49:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-10-19T18:19:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-10-20T10:23:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-10-21T16:49:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0031",
+      "sectionId": "demo0005",
+      "text": "Prototype rate limiter in Go",
+      "status": "progress",
+      "priority": "p2",
+      "deadline": "",
+      "notes": "Protect 2 hours Thursday morning",
+      "archived": false,
+      "createdAt": "2026-10-12T10:07:14Z",
+      "updatedAt": "2026-10-17T15:01:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-10-15T08:38:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-10-17T15:01:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0032",
+      "sectionId": "demo0005",
+      "text": "Review Sam's RFC on event sourcing",
+      "status": "todo",
+      "priority": "p1",
+      "deadline": "2026-10-24",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-10-20T10:03:14Z",
+      "updatedAt": "2026-10-21T12:15:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-10-21T12:15:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0033",
+      "sectionId": "demo0005",
+      "text": "Fix flaky integration test in billing",
+      "status": "done",
+      "priority": "p3",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-09-25T10:30:14Z",
+      "updatedAt": "2026-10-01T10:42:14Z",
+      "statusHistory": [
+        {
+          "status": "todo",
+          "at": "2026-09-27T17:05:14Z"
+        },
+        {
+          "status": "progress",
+          "at": "2026-09-28T15:52:14Z"
+        },
+        {
+          "status": "tracking",
+          "at": "2026-09-29T16:49:14Z"
+        },
+        {
+          "status": "done",
+          "at": "2026-10-01T10:42:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0034",
+      "sectionId": "demo0005",
+      "text": "Pair with Alex on caching layer",
+      "status": "backlog",
+      "priority": "p3",
+      "deadline": "",
+      "notes": "",
+      "archived": false,
+      "createdAt": "2026-10-16T10:35:14Z",
+      "updatedAt": "2026-10-16T10:10:14Z",
+      "statusHistory": []
+    }
+  ],
+  "people": [
+    {
+      "id": "demo0035",
+      "name": "Priya Shah",
+      "area": "Platform",
+      "role": "Senior Engineer",
+      "birthday": "1992-10-25",
+      "roleDate": "2023-03-01",
+      "notes": "Strong on systems design. Prefers direct feedback. Wants to grow into a tech lead.",
+      "careerAspirations": "Tech lead for the platform team within 12 months.",
+      "roleHistory": [
+        {
+          "role": "Engineer",
+          "from": "2021-02-15",
+          "to": "2023-03-01"
+        }
+      ],
+      "log": [
+        {
+          "id": "demo0036",
+          "date": "2026-10-16",
+          "discussionPoints": "Promo path and gaps: cross-team influence.",
+          "actionItems": "Priya to lead the SLO working group.",
+          "createdAt": "2026-10-16T10:16:14Z"
+        },
+        {
+          "id": "demo0037",
+          "date": "2026-10-02",
+          "discussionPoints": "Feeling stretched by on-call load.",
+          "actionItems": "Me: rebalance rota before next sprint.",
+          "createdAt": "2026-10-02T10:33:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0038",
+      "name": "Alex Chen",
+      "area": "Payments",
+      "role": "Engineer",
+      "birthday": "1995-06-12",
+      "roleDate": "2024-08-15",
+      "notes": "Prefers async feedback. Great at debugging production issues.",
+      "careerAspirations": "Go deeper on distributed systems.",
+      "roleHistory": [],
+      "log": [
+        {
+          "id": "demo0039",
+          "date": "2026-10-09",
+          "discussionPoints": "Caching layer design review.",
+          "actionItems": "Pair session booked for next week.",
+          "createdAt": "2026-10-09T10:55:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0040",
+      "name": "Sam Okafor",
+      "area": "Platform",
+      "role": "Staff Engineer",
+      "birthday": "1988-12-01",
+      "roleDate": "2021-01-10",
+      "notes": "Technical anchor for the team. Mentors two juniors.",
+      "careerAspirations": "Principal track.",
+      "roleHistory": [
+        {
+          "role": "Senior Engineer",
+          "from": "2018-05-01",
+          "to": "2021-01-10"
+        }
+      ],
+      "log": []
+    },
+    {
+      "id": "demo0041",
+      "name": "Jordan Lee",
+      "area": "Platform",
+      "role": "Junior Engineer",
+      "birthday": "1999-12-02",
+      "roleDate": "2025-11-03",
+      "notes": "First year. Owns the onboarding doc refresh.",
+      "careerAspirations": "",
+      "roleHistory": [],
+      "log": [
+        {
+          "id": "demo0042",
+          "date": "2026-10-20",
+          "discussionPoints": "Settling in; wants more code review feedback.",
+          "actionItems": "Sam to do weekly review pairing.",
+          "createdAt": "2026-10-20T10:38:14Z"
+        }
+      ]
+    },
+    {
+      "id": "demo0043",
+      "name": "Maya Rodriguez",
+      "area": "Product",
+      "role": "Product Manager",
+      "birthday": "1990-03-22",
+      "roleDate": "2022-07-18",
+      "notes": "Key partner for Q4 roadmap. Likes data in decisions.",
+      "careerAspirations": "",
+      "roleHistory": [],
+      "log": []
+    }
+  ],
+  "insights": [
+    {
+      "id": "demo0044",
+      "type": "Leadership principle",
+      "title": "",
+      "text": "Clarity beats velocity: a clear \"no\" saves a quarter.",
+      "createdAt": "2026-06-25T10:27:14Z"
+    },
+    {
+      "id": "demo0045",
+      "type": "Lesson learned",
+      "title": "",
+      "text": "Incidents repeat where ownership is fuzzy. Name an owner in every postmortem.",
+      "createdAt": "2026-08-04T10:13:14Z"
+    },
+    {
+      "id": "demo0046",
+      "type": "Decision heuristic",
+      "title": "",
+      "text": "If it's reversible and cheap, decide today.",
+      "createdAt": "2026-09-08T10:59:14Z"
+    },
+    {
+      "id": "demo0047",
+      "type": "Observation",
+      "title": "",
+      "text": "My best coding hours are before 11am. Protect them.",
+      "createdAt": "2026-09-23T10:34:14Z"
+    },
+    {
+      "id": "demo0048",
+      "type": "Thought",
+      "title": "",
+      "text": "The team copies how I react to bad news, not what I say about it.",
+      "createdAt": "2026-10-11T10:48:14Z"
+    },
+    {
+      "id": "demo0049",
+      "type": "Leadership principle",
+      "title": "",
+      "text": "Delegate outcomes, not tasks.",
+      "createdAt": "2026-10-19T10:46:14Z"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "demo0050",
+      "category": "Impact",
+      "title": "Cut p95 checkout latency by 38%",
+      "evidence": "Grafana dashboard, Q3 review notes",
+      "createdAt": "2026-08-14T10:44:14Z"
+    },
+    {
+      "id": "demo0051",
+      "category": "People",
+      "title": "Promoted two engineers",
+      "evidence": "Promo packets, peer feedback from Sam and Maya",
+      "createdAt": "2026-08-29T10:12:14Z"
+    },
+    {
+      "id": "demo0052",
+      "category": "Execution",
+      "title": "Shipped the on-call revamp",
+      "evidence": "Pager load down 50% quarter on quarter",
+      "createdAt": "2026-09-13T10:45:14Z"
+    },
+    {
+      "id": "demo0053",
+      "category": "Leadership",
+      "title": "Led cross-team incident review programme",
+      "evidence": "Adopted by 3 other teams",
+      "createdAt": "2026-09-28T10:19:14Z"
+    },
+    {
+      "id": "demo0054",
+      "category": "Strategy",
+      "title": "Wrote multi-region architecture proposal",
+      "evidence": "RFC approved by architecture forum",
+      "createdAt": "2026-10-08T10:25:14Z"
+    },
+    {
+      "id": "demo0055",
+      "category": "Learning",
+      "title": "Completed distributed systems course",
+      "evidence": "Certificate + internal talk",
+      "createdAt": "2026-10-17T10:42:14Z"
+    }
+  ]
+}
