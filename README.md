@@ -4,6 +4,10 @@
 
 Prioritise your work, keep context on your team, capture what you're learning, and log your wins for review season. It all lives in one HTML file, and your data never leaves your machine.
 
+### 👉 [Try it live](https://mithunmanohar.github.io/lead-lane/)
+
+No sign-up. Anything you enter stays in your own browser. Want to see it with data? Download [`demo/leadlane-demo-data.json`](demo/leadlane-demo-data.json) and load it via **Settings → Import JSON/YAML**.
+
 <!-- Add a screenshot or GIF here: ![LeadLane board](docs/screenshot.png) -->
 
 ---
