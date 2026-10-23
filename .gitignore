@@ -1,0 +1,7 @@
+# Personal LeadLane data: never commit
+leadlane-data.json
+leadlane-data.yaml
+*.backup.json
+
+# macOS
+.DS_Store
