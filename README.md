@@ -6,9 +6,9 @@ Prioritise your work, keep context on your team, capture what you're learning, a
 
 ### 👉 [Try it live](https://mithunmanohar.github.io/lead-lane/)
 
-No sign-up. Anything you enter stays in your own browser. Want to see it with data? Download [`demo/leadlane-demo-data.json`](demo/leadlane-demo-data.json) and load it via **Settings → Import JSON/YAML**.
+No sign-up. Anything you enter stays in your own browser. Want to see it with data? Download [`demo/leadlane-demo-data.json`](demo/leadlane-demo-data.json) and load it via **Settings → Import JSON or YAML**.
 
-<!-- Add a screenshot or GIF here: ![LeadLane board](docs/screenshot.png) -->
+![The LeadLane task board: a section with Backlog, To do, In progress, Tracking and Done columns, each split into P1, P2 and P3 lanes](docs/screenshot.png)
 
 ---
 
@@ -46,7 +46,7 @@ LeadLane is the board I built to fix that for myself. It holds one view of every
 - **Copy review draft** turns them into a bullet list you can paste into a self-assessment
 
 ### 🌗 And more
-- Dark and light themes
+- Light and dark themes that follow your system setting, plus compact and comfortable density
 - Print-friendly layout
 - Export and import as JSON or YAML
 
@@ -85,7 +85,7 @@ Double-click the file or drag it into a browser window. Bookmark it so it's one 
 
 ### 4. Turn on auto-save to a JSON file
 
-Click **Set up file sync** in the banner (or go to **Settings → Pick Folder for Auto-Save**), then choose **the same folder**. Allow LeadLane to edit files there. If the browser asks, pick **"Allow on every visit."**
+Click **Set up file sync** in the banner (or go to **Settings → Choose folder**), then choose **the same folder**. Allow LeadLane to edit files there. If the browser asks, pick **"Allow on every visit."**
 
 That's it. A file called **`leadlane-data.json`** now sits next to `leadlane.html` and updates on every change:
 
@@ -109,7 +109,7 @@ LeadLane keeps your data in two places:
 A few good habits:
 
 - **Clearing your browser data erases the browser copy.** The JSON file is what saves you. Keep auto-save on.
-- **Moving to a new machine?** Copy your LeadLane folder across, open `leadlane.html`, and use **Settings → Import JSON/YAML** to load `leadlane-data.json`.
+- **Moving to a new machine?** Copy your LeadLane folder across, open `leadlane.html`, and use **Settings → Import JSON or YAML** to load `leadlane-data.json`.
 - **Using Safari or Firefox?** Those browsers don't support folder auto-save. Use **Settings → Export JSON** regularly instead.
 
 ---
@@ -129,7 +129,10 @@ A few good habits:
 No. Jira runs your team's work. LeadLane runs *yours*: the personal layer of priorities, people context and career evidence that team tools don't cover.
 
 **Does anything get sent to a server?**
-No. The only external request is for the Inter font from Google Fonts. Your data never leaves your machine.
+No. LeadLane makes no network requests at all: its fonts are embedded in the file. Your data never leaves your machine.
+
+**What is it styled with?**
+The [Pairwise design system](https://github.com/mithunmanohar/pairwise-saas-design-system): its tokens, component styles and the Atkinson Hyperlegible Next font are copied into `leadlane.html`, so the app looks like other Pairwise apps and still needs nothing else to run. To pick up a newer Pairwise, run `node scripts/sync-pairwise.mjs <path to a Pairwise checkout>`.
 
 **Can I customise it?**
 Yes. It's one readable HTML file with no build step, so you can open it in an editor and make it your own.
